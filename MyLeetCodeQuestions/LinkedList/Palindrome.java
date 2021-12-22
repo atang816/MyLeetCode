@@ -31,7 +31,7 @@ class Palindrome {
             head = head.next;
         }
         
-        for(int i = 0; i < list.size(); i++){
+        for(int i = 0; i < list.size()/2; i++){
             if(list.get(i) != list.get(list.size() - 1 - i))
                 return false;
         }
